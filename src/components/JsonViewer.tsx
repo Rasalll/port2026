@@ -7,6 +7,7 @@ interface JsonViewerProps {
   data: any;
   title?: string;
   status?: number;
+  delay?: number;
 }
 
 const colorizeLine = (line: string) => {
